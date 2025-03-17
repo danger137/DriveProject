@@ -1,0 +1,38 @@
+.post-card {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 16px; /* Padding inside the card */
+    margin: 16px; /* Margin outside the card */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+    text-align: center; /* Center-align text */
+  }
+  
+  .post-card:hover {
+    transform: scale(1.02); /* Slightly enlarge card on hover */
+  }
+  
+  .post-image {
+    border-radius: 8px; /* Rounded corners for the image */
+    max-width: 80%; /* Decrease max width to 80% of the card */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 12px; /* Space below the image */
+  }
+  
+  .post-title {
+    font-size: 1.5em; /* Larger font for title */
+    color: #333333; /* Dark gray color for title */
+    margin: 12px 0; /* Margin above and below the title */
+  }
+  
+  .post-content {
+    font-size: 1em; /* Standard font size for content */
+    color: #666666; /* Lighter gray color for content */
+    line-height: 1.5; /* Spacing between lines */
+  }
+  .post-date {
+    font-size: 0.9em;
+    color: gray;
+    margin: 0.5em 0;
+  }
+    

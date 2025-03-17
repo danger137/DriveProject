@@ -1,0 +1,61 @@
+.admin-panel {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input, .textarea, .file-input, .submit-button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.2s;
+  }
+
+  .input:focus,
+  .textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  .textarea {
+    resize: vertical;
+    height: 100px; /* Adjust height as needed */
+  }
+
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  @media (max-width: 768px) {
+    .admin-panel {
+      padding: 15px;
+    }
+    .input, .textarea, .file-input, .submit-button {
+      font-size: 14px;
+    }
+  }

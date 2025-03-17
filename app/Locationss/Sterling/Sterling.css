@@ -1,0 +1,22 @@
+@media (max-width: 1025px) {
+    .custom-1025 {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center !important;
+      justify-content: center;
+      display: flex;
+  
+    }
+  }
+  
+  @media (max-width: 545px) {
+    .custom-545 {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center !important;
+      justify-content: center;
+      display: flex;
+    
+    }
+  }
+  
